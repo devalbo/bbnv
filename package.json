@@ -1,0 +1,45 @@
+{
+  "name": "bbnv",
+  "version": "0.1.0",
+  "description": "Library for initializing different Bitbox mainnet/testnet environments based on hostname (include demo/dev in domain name for testnet)",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devalbo/bbnv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devalbo/bbnv/issues"
+  },
+  "homepage": "https://github.com/devalbo/bbnv#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testRegex": "^.+\\.spec\\.ts$"
+  },
+  "dependencies": {
+    "bitbox-sdk": "^8.4.2"
+  }
+}
