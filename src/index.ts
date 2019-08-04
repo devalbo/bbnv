@@ -1,4 +1,4 @@
-export {getNetworkTypeForWindowLocation} from './bbenv'
+export {getNetworkTypeForWindowLocation} from './bbnv'
 export {getBitBoxSocketForEnv} from './bbsocket'
 
 

@@ -1,4 +1,4 @@
-import { getNetworkTypeForWindowLocation, getBbEnvForNetworkType } from "./bbenv";
+import { getNetworkTypeForWindowLocation, getBbEnvForNetworkType } from "./bbnv";
 
 
 let bitboxSocket: any;
