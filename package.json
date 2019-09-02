@@ -1,6 +1,6 @@
 {
   "name": "bbnv",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "description": "Library for initializing different Bitbox mainnet/testnet environments based on hostname (include demo/dev in domain name for testnet)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

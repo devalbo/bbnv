@@ -60,7 +60,7 @@ export const getBbEnvForNetworkType = (networkType: BchNetworkTypes): BchNetwork
 }
 
 
-const initBbEnv = (bchNetworkDetails: BchNetworkDetails) => {
+const initBbEnv = (bchNetworkDetails: BchNetworkDetails): void => {
   _BBENV.BBSdk = bchNetworkDetails.BBSdk;
   _BBENV.NetName = bchNetworkDetails.NetName;
   _BBENV.NetworkType = bchNetworkDetails.NetworkType;
@@ -73,3 +73,8 @@ const _BBENV = getBbEnvForNetworkType(_bchNetworkType);
 
 
 initBbEnv(_BBENV);
+
+
+export const getBitBoxForEnv = (): BchNetworkDetails => {
+  return _BBENV;
+}
